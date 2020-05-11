@@ -1,0 +1,26 @@
+# /etc/conf.d/ozeetyd: config file for /etc/init.d/ozeetyd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ozeety/ozeety.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ozeetyd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ozeetyd.pid"
+
+# Where to write ozeetyd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ozeetyd"
+
+# User and group to own ozeetyd process
+#BITCOIND_USER="ozeety"
+#BITCOIND_GROUP="ozeety"
+
+# Path to ozeetyd executable
+#BITCOIND_BIN="/usr/bin/ozeetyd"
+
+# Nice value to run ozeetyd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
